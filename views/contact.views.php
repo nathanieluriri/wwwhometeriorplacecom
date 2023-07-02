@@ -18,7 +18,7 @@
         <div class="contact-section">
             <form action="mailto:ContactUs@hometerior.com" method="post" enctype="text/plain">
                 <label for="name" >Name:</label>
-                <input type="text" name="name"><br> <br>
+                <input type="text" name="name" id="Name"><br> <br>
                 <label>E-mail:</label>
                 <input type="email" name="mail"><br> <br>
                 <label >Message:</label>
