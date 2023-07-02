@@ -17,12 +17,12 @@
 
         <div class="contact-section">
             <form action="mailto:ContactUs@hometerior.com" method="post" enctype="text/plain">
-                <label for="name" >Name:</label>
-                <input type="text" name="name" id="Name"><br> <br>
-                <label>E-mail:</label>
-                <input type="email" name="mail"><br> <br>
-                <label >Message:</label>
-                <textarea>  </textarea><br><br>
+                
+                <input type="text" name="name" id="Name" placeholder="Name"><br> <br>
+               
+                <input type="email" name="mail" placeholder="E-mail"><br> <br>
+                
+                <textarea placeholder="Message">  </textarea><br><br>
                 <i class="fas fa-check-circle "></i>
                 <i class="fas fa-exclamation-circle "></i>
                 <input class="btn" type="submit" value="Send">

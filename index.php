@@ -59,6 +59,17 @@ else if ($uri === '/Metal-Furniture')
     require('controllers/collections/Metal-Furniture.php');
 
 }
+else if ($uri === '/collections')
 
+{
+    require('controllers/collections/collections.php');
+
+}
+else if ($uri === '/Accessories')
+
+{
+    require('controllers/Accessories/Accessories.php');
+
+}
 ?>
 

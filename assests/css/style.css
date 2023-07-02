@@ -530,9 +530,9 @@ font-weight: 700;
 }
 
 .info-section{
-    width: 70%;
+    width: 65%;
     text-align: justify;
-    margin-inline-start: 16em;
+    margin-inline-start: 2em;
     margin-block-start:4em ;
     font-size: 1rem;
     color: #777;
@@ -764,7 +764,7 @@ body{
         
         align-items:  center;
         
-        /* background-attachment: fixed; */
+        background-attachment: fixed;
     }
 
 
@@ -990,8 +990,8 @@ color: #031020;
 }
 
 .info-section{
-    width: 85%;
-    text-align: justify;
+   
+    
     margin-inline: 2em;
     margin-block-start:4em ;
     font-size: 0.7rem;
