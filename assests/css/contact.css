@@ -6,3 +6,18 @@ font-weight: 500;
 color: #777;
 
 }
+
+
+.ContactUs{
+
+    display: flex;
+    flex-direction: row;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]
+{
+    display: none;
+}

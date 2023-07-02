@@ -26,7 +26,17 @@ input[type="radio"]:checked + label{
     font-style: oblique;
     color: #339999;
 }
-
+.btn{
+    color:#ffffff;
+    font-weight: 100;
+    background-color: #1E1E1E;
+    border: 2px solid #339999;
+    font-family: 'GFS Neohellenic';
+    font-style: normal;
+    cursor: pointer;
+    margin-inline-start : 10px;
+    
+}
 label:hover
 {
     color: #339999;
@@ -70,12 +80,7 @@ a:hover{
 
 
 
-form{
-    display: flex;
-    gap: 15px;
- 
 
-}
 input[type="radio"] + label{
     padding-block-end: 25px;
     margin-block-start: 25px;
@@ -258,17 +263,7 @@ align-items: center;
     background-color: #1E1E1E;
     border: 2px solid #339999;
 }
-.btn{
-    color:#ffffff;
-    font-weight: 100;
-    background-color: #1E1E1E;
-    border: 2px solid #339999;
-    font-family: 'GFS Neohellenic';
-    font-style: normal;
-    cursor: pointer;
-    margin-inline-start : 10px;
-    
-}
+
 .contact-email-address
 {
     margin-inline-start: 14%;
