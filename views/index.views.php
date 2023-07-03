@@ -34,10 +34,10 @@
 
 </div> </div>
     <div class="Recommended-items-cards">
-    <div class="ritem"><div class="product-image"><img src="views/imgs/hot 1.svg" alt="couldn't load image" id="img1"> </div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
-    <div class="ritem"><div class="product-image"><img src="views/imgs/mirrors 1.svg" alt="couldn't load image" id="img2"> </div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
-    <div class="ritem"><div class="product-image"><img src="views/imgs/kitchen 1.svg" alt="couldn't load image" id="img3"> </div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
-    <div class="ritem"><div class="product-image"><img src="views/imgs/sofa.svg" alt="couldn't load image"id="img4"> </div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
+    <div class="ritem"><div class="product-image"><img src="views/imgs/hot 1.svg" alt="couldn't load image" id="img1"> </div> <div class="product-description"><p class="prize">&#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
+    <div class="ritem"><div class="product-image"><img src="views/imgs/mirrors 1.svg" alt="couldn't load image" id="img2"> </div> <div class="product-description"><p class="prize">&#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
+    <div class="ritem"><div class="product-image"><img src="views/imgs/kitchen 1.svg" alt="couldn't load image" id="img3"> </div> <div class="product-description"><p class="prize">&#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
+    <div class="ritem"><div class="product-image"><img src="views/imgs/sofa.svg" alt="couldn't load image"id="img4"> </div> <div class="product-description"><p class="prize">&#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
     <?php require("views/partials/pagination.php") ?>
 </div>
 <div class="collections-section"><div class="Bespoke-furniture"><h2>BESPOKE FURNITURE</h2> <h3>Collection</h3> <button>Shop Now</button></div> 
