@@ -52,14 +52,33 @@
  <div class="feautured">
     <h3>Feautured Products</h3>
     <div class="Recommended-items-cards">
-        <div class="ritem"><div class="product-image"><img src="views/imgs/hot 1.svg" alt="couldn't load image" ></div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
-        <div class="ritem"><div class="product-image"><img src="views/imgs/mirrors 1.svg" alt="couldn't load image"></div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
-        <div class="ritem"><div class="product-image"><img src="views/imgs/sofa.svg" alt="couldn't load image"></div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
-        <div class="ritem"><div class="product-image"><img src="views/imgs/hot 1.svg" alt="couldn't load image"> </div> <div class="product-description"><p class="prize">Prize</p> <p class="Product-name">Sofa</p></div></div>
+        <div class="ritem"><div class="product-image"><img src="views/imgs/hot 1.svg" alt="couldn't load image" ></div> <div class="product-description"><p class="prize"> &#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
+        <div class="ritem"><div class="product-image"><img src="views/imgs/mirrors 1.svg" alt="couldn't load image"></div> <div class="product-description"><p class="prize"> &#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
+        <div class="ritem"><div class="product-image"><img src="views/imgs/sofa.svg" alt="couldn't load image"></div> <div class="product-description"><p class="prize"> &#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
+        <div class="ritem"><div class="product-image"><img src="views/imgs/hot 1.svg" alt="couldn't load image"> </div> <div class="product-description"><p class="prize"> &#8358;Prize</p> <p class="Product-name">Sofa</p></div></div>
         <?php require("views/partials/pagination.php") ?>
     </div>
  </div>
+<div class="botm">
+   
+   <div class="botm-start">
+        <h4>  WE DESIGN </h4>
+    </div>
+    <div>
+        <h4>  BEAUTY</h4>
+    </div>
+    <div>
+        <h4>  WE MANUFACTURE </h4>
+    </div>
+    <div>
+        <h4>  LUXURY </h4>
+    </div>
+    <div>
+        <h4> BESPOKE </h4>
+    </div>
+  
 
+</div>
 
 </body>
 <?php require("views/partials/foot.php");?>
