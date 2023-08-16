@@ -1,2 +1,2 @@
 # wwwhometeriorplacecom
-so sammy chan we would delete the rooms folder
+so sammy chan i have deleted all those stuff 
