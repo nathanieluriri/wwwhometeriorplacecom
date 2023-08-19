@@ -1,6 +1,6 @@
 <header>
         <div class="header-img">
-            <img src="assests/css/Assets/logo.png" alt="header-icon">
+           <a id="logo" href=""> <img src="assests/css/Assets/logo.png" alt="header-icon"></a>
         </div>
         <ul class="header-links">
             <li><a data-present="<?=isActive("/")?>" href="/">Home</a></li>
@@ -8,7 +8,7 @@
             <li><a data-present="<?=isActive("/services")?>" href="/services">Services</a></li>
         </ul>
         <div class="header-contact">
-            <h5>Need help? <span class="contact-btn"><a href="#">
+            <h5>Need help? <span class="contact-btn"><a href="/contact">
                 Contact Us
                 </a></span>
             </h5>
@@ -32,7 +32,7 @@
                 <li><a href="/services">Services</a></li>
             </ul>
             <div class="mobile-header-contact">
-                <h3>Need help? <span class="contact-btn"><a href="#">
+                <h3>Need help? <span class="contact-btn"><a href="/contact">
                     Contact Us
                     </a></span>
                 </h3>
