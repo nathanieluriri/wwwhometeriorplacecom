@@ -1,5 +1,5 @@
 <?php
 $type = "";
 
-$name = "Contact Us ";
+$name = "/contact";
 require("views/contact.views.php");

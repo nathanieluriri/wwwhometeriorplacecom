@@ -2,5 +2,5 @@
 $type = "";
 
 
-$name = "Home";
+$name = "home";
 require("views/index.views.php");

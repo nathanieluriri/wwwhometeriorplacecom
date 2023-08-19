@@ -6,6 +6,148 @@
     font-family: 'Source Serif 4', serif;
     font-style: normal;
 }
+body, html{
+    height: 100vh;
+    cursor: url("Assets/noto_hammer.svg"), auto;
+}
+*{
+    cursor: url("Assets/noto_hammer.svg"), auto;
+    user-select: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-mobile{
+    display: none;
+}
+
+.header-img{
+    width: 50px;
+    height: 50px;
+}
+
+.header-img img{
+    object-fit: cover;
+    height: 50px;
+}
+
+.header-links{
+    display: flex;
+    gap: 60px;
+    transform: translateY(12px);
+}
+
+.header-links li{
+    list-style: none;
+}
+
+.header-links li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header-links li a:hover{
+    transition: all 100ms;
+    background-color: rgba(100, 100, 100, 0.61);
+    color: rgb(255, 255, 255);
+    border-bottom-color: rgb(30, 131, 131);
+    border-style: solid;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.header-links li [data-present="true"]{
+    transition: all 500ms;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: rgb(30, 131, 131);
+    border-style: solid;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.contact-btn{
+    background-color: black;
+    border-color: rgb(30, 131, 131);
+    border-style: solid;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.contact-btn a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        display: none;
+    }
+
+    .header-mobile{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+
+    .nav-open-btn{
+        height: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+    .header-nav-btn{
+        cursor: pointer;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        right: 900px;
+        width: 100vw;
+        height: 100vh; 
+        background-color: rgb(255, 255, 255);
+        border-style: dotted;
+        border-color: rgb(0, 0, 0);
+        z-index: 9999;
+        transition: right .5s ease-in-out;
+    }
+
+    .header-close-btn{
+        padding: 20px 30px;
+       
+    }
+
+    .header-close-btn img{
+        cursor: pointer;
+    }
+
+    .mobile-header-links li{
+        list-style: none;
+        padding: 30px 40px;
+    }
+
+    .mobile-header-links li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: larger;
+    }
+
+    .mobile-header-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .open{
+        right: 0;
+    }
+}
+
+
 .product-image img{
     width: 220px;
     height: 165px;
@@ -29,6 +171,10 @@ font-style: normal;
 input[type="radio"]:checked + label{
     font-style: oblique;
     color: #339999;
+}
+*{
+    font-family: 'Poppins';
+    font-style: normal;
 }
 .btn{
     color:#ffffff;

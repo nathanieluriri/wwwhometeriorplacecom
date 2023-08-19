@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Lato:wght@300;900&display=swap" rel="stylesheet">
-    <script defer src="assests/Js/nav.js"></script>
-    <script defer src="assests/Js/recomendation.js"></script>
+    <script defer src="assests/Js/index.js"></script>
+    
     
 </head>

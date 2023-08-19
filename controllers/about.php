@@ -1,5 +1,5 @@
 <?php
 $type = "";
 
-$name = "About Us ";
+$name = "about";
 require("views/about.views.php");
