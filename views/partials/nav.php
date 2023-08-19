@@ -24,12 +24,12 @@
         </div>
         <div class="mobile-nav">
             <div class="header-close-btn">
-                <img src="./Assets/icons8-close-48.svg" alt="nav-close-btn">
+                <img src="assests/css/Assets/icons8-close-48.svg" alt="nav-close-btn">
             </div>
             <ul class="mobile-header-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/services">Services</a></li>
             </ul>
             <div class="mobile-header-contact">
                 <h3>Need help? <span class="contact-btn"><a href="#">
